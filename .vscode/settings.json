@@ -1,0 +1,17 @@
+{
+    "spellright.language": [
+        "es"
+    ],
+    "spellright.documentTypes": [
+        "markdown",
+        "latex",
+        "plaintext",
+        "django-html"
+    ],
+    "spellright.parserByClass": {
+        "django-html": {
+            "parser": "code"
+        }
+    },
+    "cSpell.language": "en,es"
+}
