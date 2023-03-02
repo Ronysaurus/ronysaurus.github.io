@@ -1,308 +1,249 @@
 ﻿<!DOCTYPE html>
 <html class="no-js" lang="es">
-
-<head>
-    <!--- basic page needs
-    ================================================== -->
+  <head>
     <meta charset="utf-8" />
     <title>Alain Barragán</title>
-    <meta name="description" content="Pagina Web de Alain Barragán (Ronysaurus). Sobre mi y mis proyectos" />
+    <meta
+      name="description"
+      content="Pagina Web de Alain Barragán (Ronysaurus). Sobre mi y mis proyectos"
+    />
     <meta name="author" content="Alain Barragán" />
-    <!-- mobile specific metas
-    ================================================== -->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!-- CSS
-    ================================================== -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/base.css" />
-    <link rel="stylesheet" href="css/vendor.css" />
-    <link rel="stylesheet" href="css/main.css" />
-    <!-- script
-    ================================================== -->
-    <script src="js/modernizr.js"></script>
-    <script src="js/pace.min.js"></script>
-    <!-- favicons
-    ================================================== -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-    <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
-    <link rel="icon" href="favicon.png" type="image/x-icon" />
-</head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="canonical"
+      href="https://getbootstrap.com/docs/5.3/examples/headers/"
+    />
+    <link rel="stylesheet" href="CSS/mystyle.css" />
+  </head>
 
-<body id="top">
-    <!-- preloader
-    ================================================== -->
-    <div id="preloader">
-        <div id="loader" class="dots-jump">
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
+  <body>
+    <div class="container">
+      <header
+        class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom header fixed-top"
+      >
+        <a
+          href="/"
+          class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none"
+        >
+          <svg class="bi me-2" width="40" height="32">
+            <use xlink:href="#bootstrap" />
+          </svg>
+          <span class="fs-4">
+            <img
+              width="250"
+              height="40"
+              src="images/logo.png"
+              aria-placeholder="Alain Barragán"
+            />
+          </span>
+        </a>
+
+        <ul class="nav nav-pills">
+          <li class="nav-item">
+            <a href="#home" class="nav-link active" aria-current="page"
+              >INICIO</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="#aboutme" class="nav-link">SOBRE MI</a>
+          </li>
+          <li class="nav-item">
+            <a href="#portfolio" class="nav-link">MIS JUEGOS Y PROYECTOS</a>
+          </li>
+          <li class="nav-item"><a href="#cv" class="nav-link">CV</a></li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">CONTACTO</a>
+          </li>
+        </ul>
+      </header>
     </div>
-    <!-- header
-    ================================================== -->
-    <header class="s-header">
+
+    <div
+      id="home"
+      class="zone1 container-fluid text-center"
+      style="padding-top: 120px"
+    >
+      <h1>Hola</h1>
+      <h2>Soy un programador y desarrollador de videojuegos</h2>
+    </div>
+
+    <div id="aboutme" class="zone2 container-fluid text-center">
+      <h3>Soy Alain Barragán.</h3>
+      <p>
+        Estudie programación de videojuegos en Uniat, donde realicé varios
+        proyectos de forma individual y en equipos al igual que participar en
+        Game Jams organizadas por la universidad. LLevo mas de 3 años trabajando
+        de forma profesional en diferentes proyectos y con diferentes lenguajes
+        y sistemas.
+      </p>
+      <div class="container">
         <div class="row">
-            <nav class="header-nav-wrap">
-                <ul class="header-nav">
-                    <li class="current">
-                        <a class="smoothscroll" href="#home" title="home">Inicio</a>
-                    </li>
-                    <li>
-                        <a class="smoothscroll" href="#SobreMi" title="about">Sobre Mi</a>
-                    </li>
-                    <li>
-                        <a class="smoothscroll" href="#Portafolio" title="works">Mis Juegos y Proyectos</a>
-                    </li>
-                    <li>
-                        <a class="smoothscroll" href="#Curriculum" title="services">Curriculum</a>
-                    </li>
-                    <li>
-                        <a class="smoothscroll" href="#Contacto" title="contact">Contacto</a>
-                    </li>
-                    <li></li>
-                    <li></li>
-                    <li style="background: rgb(172, 69, 25)">
-                        <a href="en.html" title="english">English</a>
-                    </li>
-                </ul>
-            </nav>
-            <!-- end header-nav-wrap -->
-            <a class="header-menu-toggle" href="#">
-                <span class="header-menu-icon"></span>
+          <div class="video-container col" style="width: 100%">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/ETuWzDuISUc"
+              frameborder="0"
+              allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="video-container col" style="width: 100%">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/Obq1oo8XXAI"
+              frameborder="0"
+              allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="portfolio" class="container-fluid text-center">
+      <div style="width: 100%; text-align: center">
+        <h1>Juegos y proyectos</h1><br>
+      </div>
+      <div class="row" style="text-align: center">
+        <h2>Demo Reel</h2>
+        <div class="video-container col">
+          <video width="560" height="315" controls>
+            <source src="video/reel.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+          <br>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <iframe
+            src="https://itch.io/embed/1742463?dark=true"
+            width="552"
+            height="167"
+            frameborder="0"
+          >
+            <a href="https://ronysaurus.itch.io/the-spoopy-game"
+              >The Spoopy Game by Ronysaurus</a
+            >
+          </iframe>
+        </div>
+        <div class="col">
+          <iframe
+            src="https://itch.io/embed/1342998"
+            width="552"
+            height="167"
+            frameborder="0"
+          >
+            <a href="https://ronysaurus.itch.io/master-navigator"
+              >Master Navegator by Ronysaurus</a
+            >
+          </iframe>
+        </div>
+        <div class="col">
+          <iframe
+            src="https://itch.io/embed/283301"
+            height="167"
+            width="552"
+            frameborder="0"
+          >
+            <a href="https://frenzy00.itch.io/ouija-simulator"
+              >OUIJA SIMULATOR by Frenzy00</a
+            >
+          </iframe>
+        </div>
+        <div class="col">
+          <iframe
+            src="https://itch.io/embed/794069"
+            height="167"
+            width="552"
+            frameborder="0"
+          >
+            <a href="https://luisquid.itch.io/awakalipsis"
+              >Awakalipsis by luisquid</a
+            >
+          </iframe>
+        </div>
+        <div class="col">
+          <iframe
+            src="https://itch.io/embed/1352316"
+            width="552"
+            height="167"
+            frameborder="0"
+          >
+            <a href="https://ronysaurus.itch.io/uniat-chan-salvation">
+              Uniat Chan Salvation by Ronysaurus
             </a>
+          </iframe>
         </div>
-        <!-- end row -->
-    </header>
-    <!-- end s-header -->
-    <!-- home
-    ================================================== -->
-    <section id="home" class="s-home page-hero target-section" data-parallax="scroll" data-image-src=""
-        data-natural-width="3000" data-natural-height="2000" data-position-y="center">
-        <div class="shadow-overlay"></div>
-        <div class="home-content">
-            <div class="row home-content__main">
-                <h1>
-                    Hola <br />
-                    Soy un programador y <br />
-                    desarrollador de videojuegos
-                </h1>
-                <div class="home-content__button">
-                    <a href="#SobreMi" class="smoothscroll btn btn-animatedbg">
-                        Sobre Mi
-                    </a>
-                </div>
-            </div>
-            <!-- end home-content__main -->
-            <div class="home-content__scroll">
-                <a href="#Portafolio" class="scroll-link smoothscroll">
-                    Mis Juegos y Proyectos
-                </a>
-            </div>
+        <div class="col">
+          <iframe
+            src="https://itch.io/embed/1488504"
+            width="552"
+            height="167"
+            frameborder="0"
+          >
+            <a href="https://ronysaurus.itch.io/the-tank-game"
+              >The Tank Game by Ronysaurus</a
+            >
+          </iframe>
         </div>
-        <!-- end home-content -->
-    </section>
-    <!-- end s-home -->
-    <!-- about
-    ================================================== -->
-    <section id="SobreMi" class="s-about target-section">
-        <div class="row section-header" data-aos="fade-up">
-            <div class="col-full">
-                <h3 data-num="01" class="subhead">Sobre Mi</h3>
-                <h1 class="display-1">Soy Alain Barragán.</h1>
-                <p class="lead">
-                    Estudie programación de videojuegos en Uniat, donde realicé varios
-                    proyectos de forma individual y en equipos al igual que participar
-                    en Game Jams organizadas por la universidad. LLevo mas de 3 años
-                    trabajando de forma profesional en diferentes proyectos y con
-                    diferentes lenguajes y sistemas.
-                </p>
-            </div>
-            <div class="col-six tab-full">
-                <div class="video-container">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/ETuWzDuISUc" frameborder="0"
-                            allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen></iframe>
-                </div>
-            </div>
-            <div class="col-six tab-full">
-                <div class="video-container">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Obq1oo8XXAI" frameborder="0"
-                            allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen></iframe>
-                </div>
-            </div>
-            </div>
-    </section>
-    <!-- end s-about -->
-    <!-- services
-    ================================================== -->
-    <section id="Curriculum" class="s-services target-section">
-        <div class="row section-header" data-aos="fade-up">
-            <h3 data-num="02" class="subhead">Curriculum</h3>
+        <div class="col">
+          <iframe
+            src="https://itch.io/embed/1557377"
+            width="552"
+            height="167"
+            frameborder="0"
+          >
+            <a href="https://ronysaurus.itch.io/tic-tac-toe-ai"
+              >Tic Tac Toe AI by Ronysaurus</a
+            >
+          </iframe>
         </div>
-    </section> <!-- end s-services -->
-    <div class="container-fostrap">
-        <h1 class="display-1 display-1--light">Español</h1>
-        <h1 class="display-1 display-1--light">Ingles</h1>
+      </div>
+      <div class="container-fluid" style="text-align: center">
+        <h1>
+          <a href="https://github.com/Ronysaurus" target="_blank"
+            >Pagina de Github</a
+          >
+        </h1>
+      </div>
     </div>
-    <div class="container-fostrap">
-        <iframe src="CV/Alain Barragan, Desarrollador.pdf" width="40%" height="1050"></iframe>
-        <iframe src="CV/Alain Barragan, Developer.pdf" width="40%" height="1050"></iframe>
+
+    <div id="cv" class="zone2 container-fluid text-center">
+      <h3>Mi CV</h3><br>
+      <div class="row">
+        <div class="col">
+          <object data="CV/Esp/esp.html" width="100%" height="500px">
+            Your browser doesn’t support the object tag.
+          </object>
+        </div>
+        <div class="col">
+          <object data="CV/Eng/eng.html" width="100%" height="500px">
+            Your browser doesn’t support the object tag.
+          </object>
+        </div>
+      </div>
     </div>
-    <!-- works
-    ================================================== -->
-    <section id="Portafolio" class="s-works target-section">
-        <div class="container-fostrap">
-            <div style="width: 100%; text-align:center;">
-                <h1 class="display-1">
-                    Games and Projects
-                </h1>
-            </div>
-            <div class="col-six tab-full" style="width: 75%; text-align:center;">
-                <h2>Demo Reel</h2>
-                <div class="video-container">
-                    <video width="560" height="315" controls>
-                        <source src="video/reel.mp4" type="video/mp4" />
-                        Your browser does not support the video tag.
-                    </video>
-                </div>
-            </div>
-            <div class="card">
-                <iframe src="https://itch.io/embed/1742463?dark=true" width="552" height="167" frameborder="0">
-                    <a href="https://ronysaurus.itch.io/the-spoopy-game">The Spoopy Game by Ronysaurus</a>
-                </iframe>
-            </div>
-            <div class="card">
-                <iframe src="https://itch.io/embed/1342998" width="552" height="167" frameborder="0">
-                    <a href="https://ronysaurus.itch.io/master-navigator">Master Navegator by Ronysaurus</a>
-                </iframe>
-            </div>
-            <div class="card">
-                <iframe src="https://itch.io/embed/283301" height="167" width="552" frameborder="0">
-                    <a href="https://frenzy00.itch.io/ouija-simulator">OUIJA SIMULATOR by Frenzy00</a>
-                </iframe>
-            </div>
-            <div class="card">
-                <iframe src="https://itch.io/embed/794069" height="167" width="552" frameborder="0">
-                    <a href="https://luisquid.itch.io/awakalipsis">Awakalipsis by luisquid</a>
-                </iframe>
-            </div>
-            <div class="card">
-                <iframe src="https://itch.io/embed/1352316" width="552" height="167" frameborder="0">
-                    <a href="https://ronysaurus.itch.io/uniat-chan-salvation">
-                        Uniat Chan Salvation by
-                        Ronysaurus
-                    </a>
-                </iframe>
-            </div>
-            <div class="card">
-                <iframe src="https://itch.io/embed/1488504" width="552" height="167" frameborder="0">
-                    <a href="https://ronysaurus.itch.io/the-tank-game">The Tank Game by Ronysaurus</a>
-                </iframe>
-            </div>
-            <div class="card">
-                <iframe src="https://itch.io/embed/1557377" width="552" height="167" frameborder="0">
-                    <a href="https://ronysaurus.itch.io/tic-tac-toe-ai">Tic Tac Toe AI by Ronysaurus</a>
-                </iframe>
-            </div>
-        </div>
-        <div class="container-fluid" style="text-align: center; width: 300px; margin: 0 auto">
-            <h1>
-                <a href="https://github.com/Ronysaurus" target="_blank">Pagina de Github</a>
-            </h1>
-        </div>
-    </section>
-    <!-- end s-works -->
 
-    <!-- contact
-    ================================================== -->
-    <section id="Contacto" class="s-contact target-section">
-        <div class="row section-header" data-aos="fade-up">
-            <div class="col-full">
-                <h3 data-num="04" class="subhead">Contacto</h3>
-                <h1 class="display-1 display-1--light">
-                    Puedes enviarme correo en
-                    <a href="mailto:#0">barraganalain55@gmail.com</a>
-                </h1>
-            </div>
-        </div>
-
-        <div class="row contact-infos">
-            <div class="md-six tab-full contact-number" data-aos="fade-up">
-                <h4>Contactame</h4>
-                <ul class="contact-list">
-                    <li><a href="mailto:#0">barraganalain55@gmail.com</a></li>
-                    <li><a href="tel:3311590602">33 1159 0602</a></li>
-                </ul>
-            </div>
-        </div>
-        <!-- end contact-infos -->
-    </section>
-    <!-- end s-contact -->
-    <!-- footer
-    ================================================== -->
-    <footer>
-        <div class="row">
-            <div class="col-full cl-copyright">
-                <span>
-                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                    Copyright &copy;
-                    <script>
-                        document.write(new Date().getFullYear());
-                    </script>
-                    All rights reserved | This template is made with
-                    <i class="fa fa-heart" aria-hidden="true"></i> by
-                    <a href="https://colorlib.com" target="_blank">Colorlib</a>
-                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                </span>
-            </div>
-        </div>
-    </footer>
-
-    <!-- photoswipe background
-    ================================================== -->
-    <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
-        <div class="pswp__bg"></div>
-        <div class="pswp__scroll-wrap">
-            <div class="pswp__container">
-                <div class="pswp__item"></div>
-                <div class="pswp__item"></div>
-                <div class="pswp__item"></div>
-            </div>
-
-            <div class="pswp__ui pswp__ui--hidden">
-                <div class="pswp__top-bar">
-                    <div class="pswp__counter"></div>
-                    <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
-                    <button class="pswp__button pswp__button--share" title="Share"></button>
-                    <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
-                    <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
-                    <div class="pswp__preloader">
-                        <div class="pswp__preloader__icn">
-                            <div class="pswp__preloader__cut">
-                                <div class="pswp__preloader__donut"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-                    <div class="pswp__share-tooltip"></div>
-                </div>
-                <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button>
-                <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
-                <div class="pswp__caption">
-                    <div class="pswp__caption__center"></div>
-                </div>
-            </div>
-        </div>
+    <div id="contac" class="container-fluid text-center">
+      <h3>Contacto</h3><br>
+      <p> Puedes enviar correo a: <a href="mailto:#0">rony@ronysaurus.com</a> </p>
+      <p> Mastodon: <a rel="me" href="https://mastodon.gamedev.place/@Ronysaurus">@Ronysaurus@mastodon.gamedev.place</a></p>
+      <p> Matrix: @ronysaurus:one.ems.host</p>
     </div>
-    <!-- end photoSwipe background -->
-    <!-- Java Script
-    ================================================== -->
-    <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
-</body>
 
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
