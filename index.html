@@ -1,5 +1,5 @@
 ﻿<!DOCTYPE html>
-<html class="no-js" lang="es">
+<html>
   <head>
     <meta charset="utf-8" />
     <title>Alain Barragán</title>
@@ -15,11 +15,7 @@
       integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
       crossorigin="anonymous"
     />
-    <link
-      rel="canonical"
-      href="https://getbootstrap.com/docs/5.3/examples/headers/"
-    />
-    <link rel="stylesheet" href="CSS/mystyle.css" />
+    <link rel="stylesheet" href="CSS/style.css" />
   </head>
 
   <body>
@@ -45,72 +41,148 @@
         </a>
 
         <ul class="nav nav-pills">
+          <li class="nav-item es-lang">
+            <a href="#home" class="nav-link active" aria-current="page">HOME</a>
+          </li>
           <li class="nav-item">
-            <a href="#home" class="nav-link active" aria-current="page"
-              >INICIO</a
+            <a href="#aboutme" class="nav-link es_lang">SOBRE MI</a>
+            <a href="#aboutme" class="nav-link en_lang">ABOUT ME</a>
+          </li>
+          <li class="nav-item">
+            <a href="#portfolio" class="nav-link es_lang"
+              >MIS JUEGOS Y PROYECTOS</a
             >
-          </li>
-          <li class="nav-item">
-            <a href="#aboutme" class="nav-link">SOBRE MI</a>
-          </li>
-          <li class="nav-item">
-            <a href="#portfolio" class="nav-link">MIS JUEGOS Y PROYECTOS</a>
+            <a href="#portfolio" class="nav-link en_lang">GAMES AND PROJECTS</a>
           </li>
           <li class="nav-item"><a href="#cv" class="nav-link">CV</a></li>
           <li class="nav-item">
-            <a href="#contact" class="nav-link">CONTACTO</a>
+            <a href="#contact" class="nav-link es_lang">CONTACTO</a>
+            <a href="#contact" class="nav-link en_lang">CONTACT</a>
+          </li>
+          <li>
+            <div id="lang-switch">
+              <img
+                src="https://cdn3.iconfinder.com/data/icons/finalflags/256/Mexico-Flag.png"
+                class="es"
+              />
+              <img
+                src="https://cdn3.iconfinder.com/data/icons/finalflags/256/United-States-Flag.png"
+                class="en"
+              />
+            </div>
           </li>
         </ul>
       </header>
     </div>
 
-    <div
-      id="home"
-      class="zone1 container-fluid text-center"
-      style="padding-top: 120px"
-    >
-      <h1>Hola</h1>
-      <h2>Soy un programador y desarrollador de videojuegos</h2>
+    <div id="home">
+      <div class="es_lang">
+        <div
+          class="zone1 container-fluid text-center"
+          style="padding-top: 120px"
+        >
+          <h1>Hola</h1>
+          <h2>Soy un programador y desarrollador de videojuegos</h2>
+        </div>
+      </div>
+      <div class="en_lang">
+        <div
+          class="zone1 container-fluid text-center"
+          style="padding-top: 120px"
+        >
+          <h1>Hello</h1>
+          <h2>I'm a video game programmer and developer</h2>
+        </div>
+      </div>
     </div>
 
-    <div id="aboutme" class="zone2 container-fluid text-center">
-      <h3>Soy Alain Barragán.</h3>
-      <p>
-        Estudie programación de videojuegos en Uniat, donde realicé varios
-        proyectos de forma individual y en equipos al igual que participar en
-        Game Jams organizadas por la universidad. LLevo mas de 3 años trabajando
-        de forma profesional en diferentes proyectos y con diferentes lenguajes
-        y sistemas.
-      </p>
-      <div class="container">
-        <div class="row">
-          <div class="video-container col" style="width: 100%">
-            <iframe
-              width="560"
-              height="315"
-              src="https://www.youtube.com/embed/ETuWzDuISUc"
-              frameborder="0"
-              allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
+    <div id="aboutme">
+      <div class="es_lang">
+        <div class="zone2 container-fluid text-center">
+          <h3>Soy Alain Barragán.</h3>
+          <p>
+            Estudie programación de videojuegos en Uniat, donde realicé varios
+            proyectos de forma individual y en equipos al igual que participar
+            en Game Jams organizadas por la universidad. LLevo mas de 3 años
+            trabajando de forma profesional en diferentes proyectos y con
+            diferentes lenguajes y sistemas.
+          </p>
+          <div class="container">
+            <div class="row">
+              <div class="video-container col" style="width: 100%">
+                <iframe
+                  width="560"
+                  height="315"
+                  src="https://www.youtube.com/embed/ETuWzDuISUc"
+                  frameborder="0"
+                  allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+              </div>
+              <div class="video-container col" style="width: 100%">
+                <iframe
+                  width="560"
+                  height="315"
+                  src="https://www.youtube.com/embed/Obq1oo8XXAI"
+                  frameborder="0"
+                  allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
           </div>
-          <div class="video-container col" style="width: 100%">
-            <iframe
-              width="560"
-              height="315"
-              src="https://www.youtube.com/embed/Obq1oo8XXAI"
-              frameborder="0"
-              allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
+        </div>
+      </div>
+      <div class="en_lang">
+        <div class="zone2 container-fluid text-center">
+          <h3>I'm Alain Barragán.</h3>
+          <p>
+            I've studied videogame programming at Uniat where I made many
+            projects both individualy and in teams, I also participated in Game
+            Jams orginized by the School. I have been workiing profesonally for
+            more than 3 years on different projects using diverse systems and
+            programming languages.
+          </p>
+          <div class="container">
+            <div class="row">
+              <div class="video-container col" style="width: 100%">
+                <iframe
+                  width="560"
+                  height="315"
+                  src="https://www.youtube.com/embed/ETuWzDuISUc"
+                  frameborder="0"
+                  allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+              </div>
+              <div class="video-container col" style="width: 100%">
+                <iframe
+                  width="560"
+                  height="315"
+                  src="https://www.youtube.com/embed/Obq1oo8XXAI"
+                  frameborder="0"
+                  allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
 
     <div id="portfolio" class="container-fluid text-center">
-      <div style="width: 100%; text-align: center">
-        <h1>Juegos y proyectos</h1><br>
+      <div class="es_lang">
+        <div style="width: 100%; text-align: center">
+          <h1>Juegos y proyectos</h1>
+          <br />
+        </div>
+      </div>
+      <div class="en_lang">
+        <div style="width: 100%; text-align: center">
+          <h1>Games and Projects</h1>
+          <br />
+        </div>
       </div>
       <div class="row" style="text-align: center">
         <h2>Demo Reel</h2>
@@ -119,7 +191,7 @@
             <source src="video/reel.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
-          <br>
+          <br />
         </div>
       </div>
       <div class="row">
@@ -208,42 +280,71 @@
           </iframe>
         </div>
       </div>
-      <div class="container-fluid" style="text-align: center">
-        <h1>
-          <a href="https://github.com/Ronysaurus" target="_blank"
-            >Pagina de Github</a
-          >
-        </h1>
+      <div class="es_lang">
+        <div class="container-fluid" style="text-align: center">
+          <h1>
+            <a href="https://github.com/Ronysaurus" target="_blank"
+              >Pagina de Github</a
+            >
+          </h1>
+        </div>
+      </div>
+      <div class="en_lang">
+        <div class="container-fluid" style="text-align: center">
+          <h1>
+            <a href="https://github.com/Ronysaurus" target="_blank"
+              >Github Page</a
+            >
+          </h1>
+        </div>
       </div>
     </div>
 
-    <div id="cv" class="zone2 container-fluid text-center">
-      <h3>Mi CV</h3><br>
-      <div class="row">
-        <div class="col">
+    <div id="cv">
+      <div class="es_lang">
+        <div class="zone2 container-fluid" style="text-align: center">
+          <h3>Mi CV</h3>
+          <a href="CV/Español.pdf" download>Decargar: </a> <br />
           <object data="CV/Esp/esp.html" width="100%" height="500px">
             Your browser doesn’t support the object tag.
-          </object>
-        </div>
-        <div class="col">
-          <object data="CV/Eng/eng.html" width="100%" height="500px">
-            Your browser doesn’t support the object tag.
-          </object>
-        </div>
+        </object>
       </div>
     </div>
-
-    <div id="contact" class="container-fluid text-center">
-      <h3>Contacto</h3><br>
-      <p> Puedes enviar correo a: <a href="mailto:#0">rony@ronysaurus.com</a> </p>
-      <p> Mastodon: <a rel="me" href="https://mastodon.gamedev.place/@Ronysaurus">@Ronysaurus@mastodon.gamedev.place</a></p>
-      <p> Matrix: @ronysaurus:one.ems.host</p>
+    <div class="en_lang">
+      <div class="zone2 container-fluid" style="text-align: center">
+        <h3>My CV</h3>
+        <a href="CV/English.pdf" download>Download: </a> <br />
+        <object data="CV/Eng/eng.html" width="100%" height="500px">
+          Your browser doesn’t support the object tag.
+        </object>
+      </div>
     </div>
-
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-      crossorigin="anonymous"
-    ></script>
+  </div>
+    
+    <div id="contact">
+      <div class="es_lang">
+        <div class="container-fluid text-center">
+          <h3>Contacto</h3>
+        </div>
+      </div>
+      <div class="en_lang">
+        <div class="container-fluid text-center">
+          <h3>Contact</h3>
+        </div>
+      </div>
+      <div class="container-fluid text-center">
+        <br />
+        <p>E-mail: <a href="mailto:#0">rony@ronysaurus.com</a></p>
+        <p>
+          Mastodon:
+          <a rel="me" href="https://mastodon.gamedev.place/@Ronysaurus"
+            >@Ronysaurus@mastodon.gamedev.place</a
+          >
+        </p>
+        <p>Matrix: @ronysaurus:one.ems.host</p>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
